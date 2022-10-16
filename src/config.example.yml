@@ -1,3 +1,4 @@
 token: 'Токен бота'
 owners: ['Ваш ID', 'Айди других разработчиков..']
 guildID: 'Айди сервера где будут регистрироваться все команды'
+website: 'https://github.com/sscefalix/python-discord-bot-template'
