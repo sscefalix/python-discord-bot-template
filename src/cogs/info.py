@@ -48,7 +48,7 @@ class Info(commands.Cog):
         embed = Embed(title=f'Информация о {self.client.user}')
         embed.add_field('Пинг', f'{round(self.client.latency*1000)} мс')
         embed.add_field('Количество серверов', self.client.guild_count)
-        embed.add_field('Колиество пользоателей', self.client.user_count)
+        embed.add_field('Колиество пользователей', self.client.user_count)
         embed.add_field('Запущен', f'<t:{int(self.client.uptime)}:R>')
         if website := self.client.config.get('website'):
             components = [

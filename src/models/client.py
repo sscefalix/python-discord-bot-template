@@ -14,7 +14,7 @@ class Client(AutoShardedInteractionBot):
 
     @property
     def user_count(self) -> int:
-        return len(self.guilds)
+        return len(self.users)
 
     @property
     def config(self) -> dict:
